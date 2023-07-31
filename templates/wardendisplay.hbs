@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="warden.css">
+    <script src="hostel.js" defer></script>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <title>Document</title>
+</head>
+<style>
+    #dropdown .normal{
+    font-size:14px ;
+    font-weight:600 ;
+    padding: 15px 30px;
+    color: #000;
+    background-color:hsl(176, 88%, 27%) ;
+    border-radius:4px ;
+    cursor: pointer;
+    border:none ;
+    outline: none;
+    transition:0.02s ease;
+}
+#page-header-img{
+    background-image: url("https://images.wisegeek.com/hostel-room-with-four-bunk-beds.jpg");
+    background-size: cover;
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+#header img{
+    height: 100px;
+    width: 150px;
+}
+#dropdown div{
+    padding-top: 30px;
+}
+#dropdown .ddd{
+    width:150px;
+    height: 50px;
+}
+#dropdown table th{
+    background-color:#088178;
+}
+/* Student */
+#hero{
+
+    background-image: url("https://slads.lk/wp-content/uploads/2019/02/37897907_1480571675377122_4026260943527739392_o.jpg");
+
+    background-size: cover;
+
+    height: 80vh;
+
+    width: 100%;
+
+    background-position: top 25% right 0;
+
+    padding: 0 80px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: flex-start;
+
+}
+#marquee{
+    margin-top: 4%;
+    align-content: center;
+}
+#name{
+    margin-top:4%;
+}
+#name div{
+    margin-top: 4%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between ;
+    flex-direction: row;
+}
+#name button{
+   margin-top: 5%;
+   font-size:14px ;
+
+    font-weight:600 ;
+
+    padding: 15px 30px;
+
+    color:#000;
+
+    background-color:#088178 ;
+
+    border-radius:4px ;
+
+    cursor: pointer;
+
+    border:none ;
+
+    outline: none;
+
+    transition:0.02s ease;
+}
+#name div button a{
+    text-decoration: none;
+    color:white ;
+}
+#name img{    
+     height: 400px;
+    width: 500px;
+    margin: 5% 5% 0% 5% ;
+}
+
+#hero h4{
+    padding-bottom: 15px;
+}
+#hero h1{
+    color: #088178;
+}
+#name .span1{
+    margin-top: 10%;
+    margin-left: 0;
+    float: left;
+}
+#name div x{
+    margin-left: 0;
+}
+#name .span1 button{ 
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#name .span1 button i{
+    font-size: 16px;
+    font-weight: 600;
+}
+</style>
+<body>
+    <!-- <section id="header">
+        <div class="logo">
+            <h3>Hostel <span>Allotment</span></h3>
+          </div>
+        <div>
+            <ul id="navbar">
+                <li><a href="/">Home</a></li>
+                <li><a  href="hostels.html">Hostels</a></li>
+                <li><a href="warden.html" class="active">Warden</a></li>
+                <li><a href="contact.html">Contact</a></li>   
+            </ul>
+        </div>
+    </section> -->
+    <section id="header">
+        <div class="logo"style = "padding:0px 10px 0px 0px;">
+            <h3 style = "font-weight:700;font-size:30px;line-height: 0.3cm;">Hostel <span>Allotment</span></h3>
+          </div>
+        <div>
+            <ul id="navbar">
+                <li><a  href="/">Home</a></li>
+                <li><a  href="hostels" class="active">Hostels</a></li>
+                <li><a href="warden">Warden</a></li>
+                <li><a href="contact">Contact</a></li>   
+            </ul>
+        </div>
+    </section>
+    <section id="page-header-img">        
+        <h2>#make your work easier</h2>    
+    </section>
+    <section id="dropdown">
+        <div>
+        <center><select name="" id="ddd" class="ddd">
+            <option value="Select Hostel" id="ddd">Select Hostel</option>
+            <option value="Vaidehi" id="ddd">Vaidehi</option>
+            <option value="Revathi" id="ddd">Revathi</option>
+            <option value="Bhuvana" id="ddd">Bhuvana</option>
+            <option value="Spoorthi" id="ddd">Spoorthi</option>
+        </select>
+        <button type="button" class="normal" id="button">Get details</button>  
+        </div><br><br>
+        <table  id="table" align="center" class="table table-hover table-light table-bordered">
+        </table></center>
+    </section>
+</body>
+</html>
